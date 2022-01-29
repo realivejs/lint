@@ -10,7 +10,6 @@
     "url": "git+https://github.com/wonderfulMan/eslint-config.git"
   },
   "author": "",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
