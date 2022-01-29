@@ -11,6 +11,10 @@ module.exports = {
     "plugin:jsonc/prettier",
     "plugin:yml/standard",
     "plugin:yml/prettier",
+
+
+
+    
   ],
   settings: {
     "import/resolver": {

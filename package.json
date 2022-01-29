@@ -13,6 +13,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "prepare": "husky install",
     "lint": "eslint '{packages,scripts}/**/*.{js,ts,md}' --fix",
     "lint:fix": "pnpm lint --fix"
   },
