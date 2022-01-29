@@ -1,0 +1,18 @@
+{
+  "name": "@realive/eslint-config-vue-v2",
+  "version": "1.0.0",
+  "description": "support vue2 eslint",
+  "license": "ISC",
+  "author": "wonderfulman (https://github.com/wonderfulman/)",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@realive/eslint-config-ts": "workspace:^1.0.0",
+    "eslint-plugin-vue": "^8.3.0"
+  }
+}

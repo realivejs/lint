@@ -1,0 +1,13 @@
+{
+  "typescript.validate.enable": false, // 关闭vscode对ts文件的lint功能, 由eslint处理
+  "javascript.validate.enable": false, // 关闭vscode对js文件的lint功能, 由eslint处理
+  "eslint.validate": ["javascript", "typescript" , "javascriptreact", "json", "jsonc", "json5"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true, // 保存时自己格式化js和html
+    "source.fixAll.stylelint": true // 保存时自己格式化css
+  },
+  "vetur.validation.script": false, // 取消vue文件中的js代码的lint, 以便eslint来处理
+  "vetur.format.defaultFormatter.js": "none", // 取消vue文件中的js代码的format, 以便eslint来处理
+  "vetur.validation.template": false, // 取消vue文件中的html代码的lint, 以便eslint来处理
+  "vetur.format.defaultFormatter.html": "none", // 取消vue文件中的html代码的format, 以便eslint来处理
+}

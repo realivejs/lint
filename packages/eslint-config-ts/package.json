@@ -1,0 +1,23 @@
+{
+  "name": "@realive/eslint-config-ts",
+  "version": "1.0.0",
+  "description": "support typescript eslint",
+  "license": "ISC",
+  "author": "wonderfulman (https://github.com/wonderfulman/)",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@realive/eslint-config-base": "workspace:^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
