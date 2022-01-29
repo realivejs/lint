@@ -1,7 +1,7 @@
 {
   "typescript.validate.enable": false, // 关闭vscode对ts文件的lint功能, 由eslint处理
   "javascript.validate.enable": false, // 关闭vscode对js文件的lint功能, 由eslint处理
-  // "eslint.validate": ["javascript", "typescript" , "javascriptreact", "json", "jsonc", "json5"],
+  "eslint.validate": ["javascript", "typescript" , "javascriptreact", "json", "jsonc", "json5"],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true, // 保存时自己格式化js和html
     "source.fixAll.stylelint": true // 保存时自己格式化css

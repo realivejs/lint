@@ -1,5 +1,5 @@
 module.exports = {
   root: true,
 
-  extends: ["@realive/eslint-config-base", "@realive/eslint-config-prettier"],
+  extends: ["@realive/eslint-config-ts", "@realive/eslint-config-prettier"],
 };

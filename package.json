@@ -12,9 +12,9 @@
   "author": "",
   "main": "index.js",
   "scripts": {
-    "prepare": "husky install",
     "lint": "eslint '{packages,scripts}/**/*.{js,ts,md}' --fix",
-    "lint:fix": "pnpm lint --fix"
+    "lint:fix": "pnpm lint --fix",
+    "release": "$(npm bin)/ts-node --files ./scripts/release.ts"
   },
   "bugs": {
     "url": "https://github.com/wonderfulMan/eslint-config/issues"
@@ -26,6 +26,7 @@
     "@commitlint/config-angular": "^16.0.0",
     "@realive/eslint-config-base": "workspace:^1.0.0",
     "@realive/eslint-config-prettier": "workspace:^1.0.0",
+    "@realive/eslint-config-ts": "workspace:^1.0.0",
     "@types/node": "^17.0.13",
     "eslint": "^8.7.0",
     "husky": "^7.0.4",

@@ -8,14 +8,13 @@ module.exports = {
     "standard",
     "plugin:eslint-comments/recommended",
     "plugin:jsonc/recommended-with-jsonc",
-    "plugin:jsonc/prettier",
     "plugin:yml/standard",
+    "plugin:markdown/recommended",
     "plugin:yml/prettier",
-
-
-
-    
+    "plugin:jsonc/prettier",
+    "plugin:markdown/recommended",
   ],
+
   settings: {
     "import/resolver": {
       node: { extensions: [".js", ".mjs", ".ts", ".d.ts"] },

@@ -1,6 +1,6 @@
 {
   "name": "@realive/eslint-config-base",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "eslint base config",
   "license": "ISC",
   "author": "wonderfulman (https://github.com/wonderfulman/)",
@@ -17,6 +17,7 @@
     "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jsonc": "^2.0.0",
+    "eslint-plugin-markdown": "^2.2.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-yml": "^0.12.0",
