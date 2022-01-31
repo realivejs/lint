@@ -1,2 +1,2 @@
-# eslint-config
-my eslint
+# eslint
+my eslint config

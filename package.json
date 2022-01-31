@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "eslint",
   "version": "1.0.0",
   "private": false,
   "description": "my eslint custom config",
@@ -7,7 +7,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wonderfulMan/eslint-config.git"
+    "url": "git+https://github.com/wonderfulMan/eslint.git"
   },
   "author": "",
   "main": "index.js",
@@ -17,9 +17,9 @@
     "release": "$(npm bin)/ts-node --files ./scripts/release.ts"
   },
   "bugs": {
-    "url": "https://github.com/wonderfulMan/eslint-config/issues"
+    "url": "https://github.com/wonderfulMan/eslint/issues"
   },
-  "homepage": "https://github.com/wonderfulMan/eslint-config#readme",
+  "homepage": "https://github.com/wonderfulMan/eslint#readme",
   "devDependencies": {
     "@changesets/cli": "^2.20.0",
     "@commitlint/cli": "^16.1.0",
