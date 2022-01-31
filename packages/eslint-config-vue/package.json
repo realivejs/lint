@@ -1,6 +1,6 @@
 {
   "name": "@realive/eslint-config-vue",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "support vue3 eslint",
   "license": "ISC",
   "author": "wonderfulman (https://github.com/wonderfulman/)",
@@ -12,7 +12,10 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@realive/eslint-config-ts": "workspace:^1.1.0",
+    "@realive/eslint-config-ts": "workspace:^2.1.0",
     "eslint-plugin-vue": "^8.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
