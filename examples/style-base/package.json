@@ -1,0 +1,16 @@
+{
+  "name": "style-base",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "lint:style": "stylelint '**/*.{css,html,vue}'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "stylelint": "^14.3.0"
+  }
+}
