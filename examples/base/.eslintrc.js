@@ -3,5 +3,5 @@ module.exports = {
   env: {
     node: true,
   },
-  extends: ['@realive/eslint-config-base', '@realive/eslint-config-prettier'],
+  extends: ['@realive/eslint-config-base'],
 }

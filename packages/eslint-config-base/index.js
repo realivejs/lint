@@ -10,11 +10,7 @@ module.exports = {
     "plugin:jsonc/recommended-with-jsonc",
     "plugin:yml/standard",
     "plugin:markdown/recommended",
-    "plugin:yml/prettier",
-    "plugin:jsonc/prettier",
-    "plugin:markdown/recommended",
   ],
-
   settings: {
     "import/resolver": {
       node: { extensions: [".js", ".mjs", ".ts", ".d.ts"] },

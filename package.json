@@ -1,13 +1,13 @@
 {
-  "name": "eslint",
+  "name": "lint",
   "version": "1.0.0",
   "private": false,
-  "description": "my eslint custom config",
+  "description": "code lint custom config contains css, javascript, vue...",
   "keywords": [],
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wonderfulMan/eslint.git"
+    "url": "git+https://github.com/wonderfulMan/lint.git"
   },
   "author": "",
   "main": "index.js",
@@ -17,9 +17,9 @@
     "release": "$(npm bin)/ts-node --files ./scripts/release.ts"
   },
   "bugs": {
-    "url": "https://github.com/wonderfulMan/eslint/issues"
+    "url": "https://github.com/wonderfulMan/lint/issues"
   },
-  "homepage": "https://github.com/wonderfulMan/eslint#readme",
+  "homepage": "https://github.com/wonderfulMan/lint#readme",
   "devDependencies": {
     "@changesets/cli": "^2.20.0",
     "@commitlint/cli": "^16.1.0",

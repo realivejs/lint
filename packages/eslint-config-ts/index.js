@@ -3,7 +3,7 @@ const basic = require("@realive/eslint-config-base");
 module.exports = {
   extends: [
     "@realive/eslint-config-base",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
   ],
   overrides: basic.overrides,
 

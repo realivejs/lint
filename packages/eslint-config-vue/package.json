@@ -12,7 +12,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@realive/eslint-config-ts": "workspace:^2.1.0",
+    "@realive/eslint-config-ts": "workspace:^1.0.0",
     "eslint-plugin-vue": "^8.3.0"
   },
   "publishConfig": {

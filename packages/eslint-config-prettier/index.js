@@ -1,3 +1,7 @@
 module.exports = {
-  extends: ["plugin:prettier/recommended"],
+  extends: [
+    "plugin:yml/prettier",
+    "plugin:jsonc/prettier",
+    "plugin:prettier/recommended",
+  ],
 };

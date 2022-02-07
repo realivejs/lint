@@ -1,0 +1,19 @@
+{
+  "name": "@realive/stylelint-config-vue",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "wonderfulman (https://github.com/wonderfulman/)",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "stylelint": ">=14.0.0"
+  },
+  "dependencies": {
+    "@realive/stylelint-config-base": "workspace:^1.0.0",
+    "stylelint-config-recommended-vue": "^1.1.0"
+  }
+}
