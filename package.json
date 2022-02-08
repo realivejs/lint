@@ -12,8 +12,7 @@
   "author": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint '{packages,scripts}/**/*.{js,ts,md}' --fix",
-    "lint:fix": "pnpm lint --fix",
+    "lint:fix": "eslint '{packages,scripts}/**/*.{js,ts,md}' --fix",
     "release": "$(npm bin)/ts-node --files ./scripts/release.ts"
   },
   "bugs": {
