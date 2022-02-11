@@ -1,7 +1,7 @@
 {
-  "name": "@realive/eslint-config-vue-v2",
-  "version": "1.1.0",
-  "description": "support vue2 typescript eslint",
+  "name": "@realive/eslint-config-vue-v2-normal",
+  "version": "1.3.0",
+  "description": "support vue2 javascript eslint ",
   "license": "ISC",
   "author": "wonderfulman (https://github.com/wonderfulman/)",
   "files": [
@@ -15,7 +15,10 @@
     "access": "public"
   },
   "dependencies": {
-    "@realive/eslint-config-ts": "workspace:^1.1.0",
+    "@realive/eslint-config-base": "workspace:^1.1.0",
     "eslint-plugin-vue": "^8.3.0"
   }
 }
+
+
+

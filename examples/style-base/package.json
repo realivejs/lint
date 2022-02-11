@@ -7,10 +7,10 @@
   "author": "",
   "main": "index.js",
   "scripts": {
-    "lint:style": "stylelint '**/*.{css,html,vue}'",
+    "lint:style": "stylelint '**/*.{css,html,vue}' --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "stylelint": "^14.3.0"
+    "stylelint": "^14.5.0"
   }
 }

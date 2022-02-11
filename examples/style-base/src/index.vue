@@ -1,6 +1,6 @@
-<style lang="scss" scoped>
+<style>
 .one {
-  width: 100px;
   display: block;
+  width: 100px;
 }
 </style>
