@@ -1,6 +1,6 @@
 {
   "name": "@realive/eslint-config-ts",
-  "version": "2.0.0",
+  "version": "2.3.0",
   "description": "support typescript eslint",
   "license": "ISC",
   "author": "wonderfulman (https://github.com/wonderfulman/)",
@@ -13,7 +13,7 @@
     "typescript": ">=3.9"
   },
   "dependencies": {
-    "@realive/eslint-config-base": "workspace:^2.0.0",
+    "@realive/eslint-config-base": "workspace:^2.4.0",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1"
   },
