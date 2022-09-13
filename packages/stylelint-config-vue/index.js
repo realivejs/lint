@@ -5,8 +5,24 @@ module.exports = {
   ],
   overrides: [
     {
-      files: ["**/*.(html|vue)"],
+      files: ["**/*.(html)"],
       customSyntax: "postcss-html",
+    },
+    {
+      files: ["**/*.less"],
+      customSyntax: "postcss-less",
+    },
+    {
+      files: ["**/*.sass"],
+      customSyntax: "postcss-sass",
+    },
+    {
+      files: ["**/*.stylus"],
+      customSyntax: "postcss-styl",
+    },
+    {
+      files: ["**/*.scss"],
+      customSyntax: "postcss-scss",
     },
   ],
 };

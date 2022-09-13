@@ -1,6 +1,6 @@
 {
   "name": "@realive/stylelint-config-vue",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "",
   "keywords": [],
   "license": "ISC",
@@ -10,15 +10,16 @@
     "access": "public"
   },
   "peerDependencies": {
-    "stylelint": ">=14.0.0"
+    "postcss": ">=8.3",
+    "stylelint": ">=14.11.0"
   },
   "dependencies": {
-    "postcss-scss": "^4.0.3",
-    "postcss-sass": "^0.5.0",
+    "@realive/stylelint-config-base": "workspace:^2.0.0",
     "postcss-less": "^6.0.0",
-    "postcss-styl": "^0.9.0",
-    "sugarss": "^4.0.1",
-    "@realive/stylelint-config-base": "workspace:^1.1.0",
-    "stylelint-config-recommended-vue": "^1.1.0"
+    "postcss-sass": "^0.5.0",
+    "postcss-scss": "^4.0.4",
+    "postcss-styl": "^0.11.1",
+    "stylelint-config-recommended-vue": "^1.1.0",
+    "sugarss": "^4.0.1"
   }
 }

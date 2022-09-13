@@ -3,10 +3,15 @@ const basic = require("@realive/eslint-config-base");
 module.exports = {
   extends: [
     "@realive/eslint-config-base",
+    "plugin:import/typescript",
     "plugin:@typescript-eslint/recommended",
   ],
   overrides: basic.overrides,
-
+  settings: {
+    "import/resolver": {
+      node: { extensions: [".js", ".jsx", ".mjs", ".ts", ".tsx", ".d.ts"] },
+    },
+  },
   rules: {
     "import/named": "off",
 

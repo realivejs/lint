@@ -1,5 +1,5 @@
 {
-  "typescript.validate.enable": false,
+  "typescript.validate.enable": true,
   "javascript.validate.enable": false,
   "eslint.validate": ["javascript", "typescript" ,"json" ],
   "stylelint.validate": [

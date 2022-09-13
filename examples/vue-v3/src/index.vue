@@ -1,9 +1,3 @@
-<template>
-  <div>
-    <Test test-a="1" />
-  </div>
-</template>
-
 <script lang="ts">
 import Test from './test.vue'
 export default {
@@ -19,5 +13,11 @@ export default {
   },
 }
 </script>
+
+<template>
+  <div>
+    <Test test-a="1" />
+  </div>
+</template>
 
 <style></style>
